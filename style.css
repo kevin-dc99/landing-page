@@ -1,0 +1,171 @@
+* {border: 2px dotted green}
+
+body{
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header,
+.footer{
+    padding: 0 10em;
+    margin: 0;
+}
+
+.header,
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.blue{
+    background-color: #1F2937;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.grey{
+    background-color: #E5E7EB;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+.footer{
+    justify-content: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a,
+.footer{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container{
+    padding: 5em 10em;
+    margin: 0;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10em;
+}
+
+.intro-left, .intro-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 800px;
+    height: 250px;
+}
+
+.intro-left h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin:0;
+}
+
+.intro-left p,
+.click-me{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.click-me{
+    padding: 8px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: #3882F6;
+    font-weight: bold;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item{
+    width: 200px;
+    text-align: center;
+}
+
+.item img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.quote h3{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: flex-end;
+}
+
+.signup {
+    background-color: #3882F6;
+    border-radius: 20px;
+    padding: 4em 7em;
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
+
+.signup-content{
+    flex: 1 1 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-self: center;
+}
+
+.email {
+    border: 1px solid #E5E7EB;
+}
+
+.signup h2, .signup p{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
